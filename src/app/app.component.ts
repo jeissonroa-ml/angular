@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'hola soy json';
+  person = {
+    title = 'hola soy json',
+    name = 'Json',
+    age = 18
+  }
+  btnDisabled = false;
+  toggleButton(){
+    this.btnDisabled = true;
+  }
+  
+
 }
