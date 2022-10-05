@@ -15,6 +15,10 @@ export class AppComponent {
   toggleButton(){
     this.btnDisabled = true;
   }
+
+  aumentarEdad(){
+    this.age =+ 1;
+  }
   
 
 }
