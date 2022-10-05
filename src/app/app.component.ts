@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   person = {
-    title = 'hola soy json',
-    name = 'Json',
-    age = 18
+    title : 'hola soy json',
+    name : 'Json',
+    age : 18
   }
   btnDisabled = false;
   toggleButton(){
