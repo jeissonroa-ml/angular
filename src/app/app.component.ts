@@ -1,22 +1,19 @@
 import { Component } from '@angular/core';
-
+import jsPDF from 'jspdf';
+import html2canvas from 'html2canvas'; // Todavía no lo usamos
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  person = {
-    title : 'hola soy json',
-    name : 'Json',
-    age : 18
+  constructor() {
+    this.downloadPDF();
   }
-  btnDisabled = false;
-  toggleButton(){
-    this.btnDisabled = true;
-  }
+  public downloadPDF(): void {
+    const doc = new jsPDF();
 
-  aumentarEdad(){
-    this.person.age += 1;
+    doc.text('Hello world!', 10, 10);
+    doc.save('hello-world.pdf');
   }
 }
