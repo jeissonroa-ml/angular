@@ -19,6 +19,4 @@ export class AppComponent {
   aumentarEdad(){
     this.person.age += 1;
   }
-  
-
 }
