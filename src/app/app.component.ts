@@ -8,7 +8,7 @@ import html2canvas from 'html2canvas'; // Todavía no lo usamos
 })
 export class AppComponent {
   constructor() {
-    this.downloadPDF();
+    
   }
   public downloadPDF(): void {
     const doc = new jsPDF();
