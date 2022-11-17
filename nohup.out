@@ -1,0 +1,828 @@
+Warning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disable-host-check" if that's the
+case.
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |   2.10 MB |
+polyfills.js          | polyfills     | 318.01 kB |
+styles.css, styles.js | styles        | 210.55 kB |
+main.js               | main          |   7.69 kB |
+runtime.js            | runtime       |   6.51 kB |
+
+| Initial Total |   2.63 MB
+
+Build at: 2022-10-04T13:01:23.232Z - Hash: ef23f72116ba2a29 - Time: 10004ms
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
+Warning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disable-host-check" if that's the
+case.
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |   2.10 MB |
+polyfills.js          | polyfills     | 318.01 kB |
+styles.css, styles.js | styles        | 210.55 kB |
+main.js               | main          |   7.69 kB |
+runtime.js            | runtime       |   6.51 kB |
+
+| Initial Total |   2.63 MB
+
+Build at: 2022-10-04T13:07:41.169Z - Hash: ef23f72116ba2a29 - Time: 10180ms
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  6.64 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-05T22:57:17.297Z - Hash: edb22d40a8eaad74 - Time: 1113ms
+
+./src/app/app.component.ts:6:18 - Error: Module parse failed: Shorthand property assignments are valid only in destructuring patterns (6:18)
+File was processed with these loaders:
+ * ./node_modules/@angular-devkit/build-angular/src/babel/webpack-loader.js
+ * ./node_modules/@ngtools/webpack/src/ivy/index.js
+You may need an additional loader to handle the result of these loaders.
+|     constructor() {
+|         this.person = {
+>             title = 'hola soy json',
+|             name = 'Json',
+|             age = 18
+
+Error: src/app/app.component.html:3:42 - error NG5002: Unexpected closing tag "button". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+3 <p><button[disabled]="btnDisabled">Enviar</button></p>
+                                           ~~~~~~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+Error: src/app/app.component.html:3:51 - error NG5002: Unexpected closing tag "p". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+3 <p><button[disabled]="btnDisabled">Enviar</button></p>
+                                                    ~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+Error: src/app/app.component.html:4:46 - error NG5002: Unexpected closing tag "button". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+4 <p><button(click)="toggleButton()">Desactivar</button></p>
+                                               ~~~~~~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+Error: src/app/app.component.html:4:55 - error NG5002: Unexpected closing tag "p". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+4 <p><button(click)="toggleButton()">Desactivar</button></p>
+                                                        ~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+Error: src/app/app.component.ts:10:11 - error TS1312: Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring pattern.
+
+10     title = 'hola soy json',
+             ~
+
+
+Error: src/app/app.component.ts:11:10 - error TS1312: Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring pattern.
+
+11     name = 'Json',
+            ~
+
+
+Error: src/app/app.component.ts:12:9 - error TS1312: Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring pattern.
+
+12     age = 18
+           ~
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime |  6.51 kB |
+
+4 unchanged chunks
+
+Build at: 2022-10-05T23:01:17.769Z - Hash: c7ebeac8e3c7cd80 - Time: 990ms
+
+./src/app/app.component.ts:6:18 - Error: Module parse failed: Shorthand property assignments are valid only in destructuring patterns (6:18)
+File was processed with these loaders:
+ * ./node_modules/@angular-devkit/build-angular/src/babel/webpack-loader.js
+ * ./node_modules/@ngtools/webpack/src/ivy/index.js
+You may need an additional loader to handle the result of these loaders.
+|     constructor() {
+|         this.person = {
+>             title = 'hola soy json',
+|             name = 'Json',
+|             age = 18
+
+Error: src/app/app.component.html:3:39 - error NG5002: Unexpected closing tag "button". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+3 <button[disabled]="btnDisabled">Enviar</button>
+                                        ~~~~~~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+Error: src/app/app.component.html:4:43 - error NG5002: Unexpected closing tag "button". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+4 <button(click)="toggleButton()">Desactivar</button>
+                                            ~~~~~~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+Error: src/app/app.component.ts:10:11 - error TS1312: Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring pattern.
+
+10     title = 'hola soy json',
+             ~
+
+
+Error: src/app/app.component.ts:11:10 - error TS1312: Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring pattern.
+
+11     name = 'Json',
+            ~
+
+
+Error: src/app/app.component.ts:12:9 - error TS1312: Did you mean to use a ':'? An '=' can only follow a property name when the containing object literal is part of a destructuring pattern.
+
+12     age = 18
+           ~
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.13 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-05T23:04:36.083Z - Hash: 22a12de49e41cf78 - Time: 840ms
+
+Error: src/app/app.component.html:3:39 - error NG5002: Unexpected closing tag "button". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+3 <button[disabled]="btnDisabled">Enviar</button>
+                                        ~~~~~~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+Error: src/app/app.component.html:4:43 - error NG5002: Unexpected closing tag "button". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+4 <button(click)="toggleButton()">Desactivar</button>
+                                            ~~~~~~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime |  6.51 kB |
+
+4 unchanged chunks
+
+Build at: 2022-10-05T23:12:08.853Z - Hash: 2432a975bb6032e0 - Time: 653ms
+
+Error: src/app/app.component.html:3:41 - error NG5002: Unexpected closing tag "button". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+3 <button[disabled]="btnDisabled">"Enviar"</button>
+                                          ~~~~~~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+Error: src/app/app.component.html:4:43 - error NG5002: Unexpected closing tag "button". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+4 <button(click)="toggleButton()">Desactivar</button>
+                                            ~~~~~~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime |  6.51 kB |
+
+4 unchanged chunks
+
+Build at: 2022-10-05T23:16:37.045Z - Hash: a6272d13966210fc - Time: 433ms
+
+Error: src/app/app.component.html:5:47 - error NG5002: Unexpected closing tag "button". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+5         <button[disabled]="btnDisabled">Enviar</button>
+                                                ~~~~~~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+Error: src/app/app.component.html:6:51 - error NG5002: Unexpected closing tag "button". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+6         <button(click)="toggleButton()">Desactivar</button>
+                                                    ~~~~~~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+Error: src/app/app.component.html:7:5 - error NG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+7     </div>
+      ~~~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+Error: src/app/app.component.html:8:3 - error NG5002: Unexpected closing tag "p". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+8   </p>
+    ~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime |  6.51 kB |
+
+4 unchanged chunks
+
+Build at: 2022-10-05T23:17:31.665Z - Hash: adfa51d56126379b - Time: 444ms
+
+Error: src/app/app.component.html:5:47 - error NG5002: Unexpected closing tag "button". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+5         <button[disabled]="btnDisabled">Enviar</button>
+                                                ~~~~~~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+Error: src/app/app.component.html:6:9 - error NG5002: Opening tag "button(click)" not terminated.
+
+6         <button(click) "toggleButton()">Desactivar</button>
+          ~~~~~~~~~~~~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+Error: src/app/app.component.html:6:51 - error NG5002: Unexpected closing tag "button". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+6         <button(click) "toggleButton()">Desactivar</button>
+                                                    ~~~~~~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+Error: src/app/app.component.html:7:5 - error NG5002: Unexpected closing tag "div". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+7     </div>
+      ~~~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+Error: src/app/app.component.html:8:3 - error NG5002: Unexpected closing tag "p". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+8   </p>
+    ~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime |  6.51 kB |
+
+4 unchanged chunks
+
+Build at: 2022-10-05T23:18:19.070Z - Hash: fd83952b4055db2a - Time: 443ms
+
+Error: src/app/app.component.html:8:3 - error NG5002: Unexpected closing tag "p". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+8   </p>
+    ~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.07 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-05T23:19:23.122Z - Hash: d8d218bd756049d6 - Time: 568ms
+
+Error: src/app/app.component.html:6:6 - error TS2339: Property 'title' does not exist on type 'AppComponent'.
+
+6 <p>{{title}}</p>
+       ~~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.07 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-05T23:20:18.834Z - Hash: 1b90bb9348db6b96 - Time: 634ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.52 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-05T23:22:53.724Z - Hash: 9d7c062006ef0a3d - Time: 683ms
+
+Error: src/app/app.component.ts:20:10 - error TS2339: Property 'age' does not exist on type 'AppComponent'.
+
+20     this.age =+ 1;
+            ~~~
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.53 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-05T23:23:34.992Z - Hash: 65b72248f6d6ddb8 - Time: 494ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.55 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-05T23:24:22.784Z - Hash: 57763fe7dbf2d900 - Time: 516ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.53 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-05T23:25:16.785Z - Hash: a9b50a96e950a145 - Time: 499ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.63 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-08T23:37:53.687Z - Hash: d40cf35c0f2cf008 - Time: 548ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.87 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-08T23:40:02.928Z - Hash: a508c9f290281704 - Time: 506ms
+
+Error: src/app/app.component.html:10:29 - error TS2339: Property 'changeName' does not exist on type 'AppComponent'.
+
+10 <input type="text" (keyup)="changeName">
+                               ~~~~~~~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.89 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-08T23:44:16.769Z - Hash: cb847d1c36563972 - Time: 506ms
+
+Error: src/app/app.component.html:10:29 - error TS2339: Property 'changeName' does not exist on type 'AppComponent'.
+
+10 <input type="text" (keyup)="changeName($event)">
+                               ~~~~~~~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 10.00 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-08T23:46:26.389Z - Hash: 0db438583a381ce7 - Time: 607ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+5 unchanged chunks
+
+Build at: 2022-10-08T23:46:30.434Z - Hash: 0db438583a381ce7 - Time: 434ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+vendor.js           | vendor  |  2.39 MB |
+main.js             | main    | 10.24 kB |
+runtime.js          | runtime |  6.51 kB |
+
+2 unchanged chunks
+
+Build at: 2022-10-09T00:19:09.405Z - Hash: 9314dd8cf5fcaff2 - Time: 4967ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 10.57 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-09T00:32:36.513Z - Hash: a5d080dd998d02c0 - Time: 1279ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 11.48 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-09T00:34:17.997Z - Hash: ec8e2f3175992a1a - Time: 1595ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 12.03 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-09T00:37:53.638Z - Hash: ad3cecd025d5d8a4 - Time: 641ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.10 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-09T01:04:17.311Z - Hash: a134f1ecfa300162 - Time: 631ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.28 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-09T01:05:39.280Z - Hash: ed247a579079e9bc - Time: 638ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+5 unchanged chunks
+
+Build at: 2022-10-09T04:32:10.282Z - Hash: ed247a579079e9bc - Time: 704ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.33 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-09T04:40:08.490Z - Hash: 968ced42bf1b0b73 - Time: 916ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.32 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-09T04:41:07.060Z - Hash: da156e655f09b620 - Time: 919ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.33 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-09T04:41:25.967Z - Hash: cc8eff79d463a6fc - Time: 847ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.28 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-09T04:42:06.453Z - Hash: 3b427f3c1812c5b4 - Time: 721ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.31 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-09T04:43:02.897Z - Hash: 55003fac8192a952 - Time: 685ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.43 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-09T04:59:07.185Z - Hash: 9265189b826c2474 - Time: 760ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.59 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-09T04:59:21.026Z - Hash: e7024b47ca9fec0d - Time: 620ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 16.20 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-09T05:00:20.576Z - Hash: b5b54caabd859d83 - Time: 800ms
+
+Error: src/app/app.component.html:29:26 - error TS2339: Property 'deleteName' does not exist on type 'AppComponent'.
+
+29         <button (click)="deleteName()">Delete</button>
+                            ~~~~~~~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 16.26 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-09T05:03:59.003Z - Hash: 961305a84028514f - Time: 877ms
+
+Error: src/app/app.component.html:29:26 - error TS2554: Expected 1 arguments, but got 0.
+
+29         <button (click)="deleteName()">Delete</button>
+                            ~~~~~~~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 16.32 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-09T05:04:11.043Z - Hash: 759eea46e67bcec3 - Time: 624ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+5 unchanged chunks
+
+Build at: 2022-10-09T05:04:25.345Z - Hash: 759eea46e67bcec3 - Time: 823ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 17.09 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-09T05:06:02.312Z - Hash: 2dc381d839ace72e - Time: 693ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 17.09 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-09T05:08:17.760Z - Hash: 8e65f37635e8c852 - Time: 706ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 17.09 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2022-10-09T05:11:03.346Z - Hash: 00883043a3b0c57f - Time: 899ms
+
+✔ Compiled successfully.
